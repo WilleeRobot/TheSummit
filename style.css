@@ -1,0 +1,25 @@
+a {
+    text-decoration: underline hsla(217, 79%, 33%, 1);
+    text-underline-offset: 20%;
+    cursor: pointer;
+}
+
+.nav-link {
+    text-decoration-line: none;
+}
+
+.nav-link:hover {
+    color:hsla(217, 79%, 33%, 1);
+    text-decoration: underline hsla(217, 79%, 33%, 1);
+    text-underline-offset: 20%;
+    font-size: 1.05em;
+ }
+
+ .logo {
+    text-decoration: none;
+ }
+
+ a.logo:hover {
+    font-size: 34px;
+    text-decoration: none;
+ }
