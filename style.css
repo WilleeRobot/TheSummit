@@ -12,7 +12,8 @@ a {
     color:hsla(217, 79%, 33%, 1);
     text-decoration: underline hsla(217, 79%, 33%, 1);
     text-underline-offset: 20%;
-    font-size: 1.05em;
+    /* font-size: 1.05em; */
+    font-weight: 500;
  }
 
  .logo {
