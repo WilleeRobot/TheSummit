@@ -37,9 +37,11 @@ a.logo {
  }
 
  h1 {
+    position: relative;
+    top: 33px;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 60px;
     line-height: 70px;
     text-align: center;
@@ -119,7 +121,7 @@ a.logo {
   .btn {
     display: inline-block;
     padding: 14px 12px;
-    margin: 35px auto 0px;
+    margin: 20px auto 0px;
 
     /* Font */
     font-family: 'Raleway';
@@ -142,7 +144,7 @@ a.logo {
     /* Get on the mountain */
     display:inline-block;
     padding: 14px 12px;
-    margin: 35px auto 0px;
+    margin: 20px auto 0px;
    
     /* Font */ 
     font-family: 'Raleway';
@@ -164,7 +166,7 @@ a.logo {
     /* Get on the mountain */
     display:inline-block;
     padding: 14px 12px;
-    margin: 35px auto 0px;
+    margin: 20px auto 0px;
    
     /* Font */ 
     font-family: 'Raleway';
