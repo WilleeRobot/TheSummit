@@ -1,7 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: underline hsla(217, 79%, 33%, 1);
     text-underline-offset: 20%;
     cursor: pointer;
+}
+
+a.logo {
+    font-weight: 600;
+    font-size: 34px;
+    color: #092C86;
 }
 
 .nav-link {
@@ -12,7 +22,6 @@ a {
     color:hsla(217, 79%, 33%, 1);
     text-decoration: underline hsla(217, 79%, 33%, 1);
     text-underline-offset: 20%;
-    /* font-size: 1.05em; */
     font-weight: 500;
  }
 
@@ -22,5 +31,152 @@ a {
 
  a.logo:hover {
     font-size: 34px;
-    text-decoration: none;
+    font-weight: 900;
+    /* color: hsla(223, 10%, 24%, 1); */
+    text-decoration: underline;
  }
+
+ h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 100;
+    
+    /* White */
+    
+    color: #FAFBFF;
+    
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.55);
+ }
+
+ .banner h2{
+    width: 415px;
+    margin: 0px auto;
+    
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Primary */    
+    background: radial-gradient(323.84% 399.78% at 29.9% -68.21%, #2B90B0 0%, #092C86 82.33%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 94px;
+    margin: 19px auto;
+  }
+
+  .navigation {
+    height: auto;
+    padding: 0px;
+  }
+
+  .banner {
+    position: relative;
+    top: 81px;
+    text-align: center;
+    height: 633px;
+    width: auto;
+  }
+
+  .banner-text {
+    z-index: 10;
+    position: relative;
+    top: 105px;
+  }
+
+  .img-overlay{
+    /* img-overlay */
+    position: absolute;
+    width: 100%;
+    height: 633px;
+    left: 0px;
+
+    background: rgba(255, 255, 255, 0.24);
+    background-blend-mode: screen;    
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 14px 12px;
+    margin: 35px auto 0px;
+
+    /* Font */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.61px;
+    text-align: center;
+    text-decoration: none;
+    color: #373B43;
+
+    /* Button Background */
+    background: #FAFBFF;
+    border: 1px solid #B7BDCD;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;    
+  }
+
+  .btn:hover {  
+    /* Get on the mountain */
+    display:inline-block;
+    padding: 14px 12px;
+    margin: 35px auto 0px;
+   
+    /* Font */ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17.61px;
+    text-align: center;
+    color: #FAFBFF;
+
+    /* Button Background */
+    background: radial-gradient(323.84% 399.78% at 29.9% -68.21%, #2B90B0 0%, #092C86 82.33%);
+    border: 1px solid #13151B;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+  }
+
+  .btn:active {  
+    /* Get on the mountain */
+    display:inline-block;
+    padding: 14px 12px;
+    margin: 35px auto 0px;
+   
+    /* Font */ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17.61px;
+    text-align: center;
+    color: #FAFBFF;
+
+    /* Button Background */
+    background: radial-gradient(112.95% 1972.88% at 104.82% -84.21%, #2B90B0 0%, #092C86 82.33%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
