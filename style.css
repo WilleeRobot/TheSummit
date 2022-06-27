@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     text-decoration: underline hsla(217, 79%, 33%, 1);
     text-underline-offset: 20%;
@@ -14,9 +15,23 @@ a.logo {
     color: #092C86;
 }
 
+.navigation {
+  min-height: 81px;
+  height: auto;
+  padding: 0px;
+}
+
+ul {
+  display: inline-block;
+  position: relative;
+  top: 19px;
+  margin: 0px auto;
+}
+
 .nav-link {
     text-decoration-line: none;
-}
+    vertical-align: middle;
+  }
 
 .nav-link:hover {
     color:hsla(217, 79%, 33%, 1);
@@ -28,6 +43,18 @@ a.logo {
  .logo {
     text-decoration: none;
  }
+
+ .description a {
+    color:hsla(217, 79%, 33%, 1);
+    text-decoration: underline hsla(217, 79%, 33%, 1);
+    text-underline-offset: 20%;
+    font-weight: 500;  
+    cursor: pointer;
+ }
+
+ .description a:hover {
+    color:hsla(230, 85%, 50%, 1);
+}
 
  a.logo:hover {
     font-size: 34px;
@@ -56,6 +83,21 @@ a.logo {
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.55);
  }
 
+ .banner {
+  position: relative;
+  top: 81px;
+  text-align: center;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  z-index: 10;
+  position: relative;
+  top: 105px;
+}
+
  .banner h2{
     width: 415px;
     margin: 0px auto;
@@ -78,40 +120,47 @@ a.logo {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
   }
 
-  ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 94px;
-    margin: 19px auto;
+  .content-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    
+    background: rgba(250, 251, 255, 0.17);
+    background-blend-mode: screen;    
   }
 
-  .navigation {
-    height: auto;
-    padding: 0px;
+  
+  .content h2 {
+    text-align: left;
+    margin-left: 14.3%;
+    
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    
+    background: radial-gradient(323.84% 399.78% at 29.9% -68.21%, #2B90B0 0%, #092C86 82.33%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
-
-  .banner {
+  
+  .description {
+    padding-top: 16px;
     position: relative;
-    top: 81px;
-    text-align: center;
-    height: 633px;
-    width: auto;
+    z-index: 50;
   }
 
-  .banner-text {
-    z-index: 10;
-    position: relative;
-    top: 105px;
+  .description p {
+    margin-top: 0px;
+    margin-bottom: 64px;
   }
 
   .img-overlay{
     /* img-overlay */
     position: absolute;
     width: 100%;
-    height: 633px;
+    height: 100%;
     left: 0px;
 
     background: rgba(255, 255, 255, 0.24);
